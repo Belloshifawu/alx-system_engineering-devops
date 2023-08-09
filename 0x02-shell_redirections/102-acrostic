@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c past -s -f1 | sort | uniq -c
+cut -c1 past -s | tr -d "[:blank:]"
